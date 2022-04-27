@@ -1,6 +1,7 @@
-import Feed from './Feed';
 import './App.css';
-import Sidebar from './Sidebar.jsx'
+import Sidebar from './component/Sidebar/Sidebar.jsx'
+import Feed from './component/Feed/Feed.jsx'
+
 function App() {
   return (
     <div className="app">

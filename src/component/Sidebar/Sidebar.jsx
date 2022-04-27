@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
+//icons importing from material ui start
 import HomeIcon from '@material-ui/icons/Home';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import SearchIcon from '@material-ui/icons/Search';
@@ -9,7 +10,9 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import PersonOutlinedIcon from '@material-ui/icons/PersonOutlined';
 import MoreHorizOutlinedIcon from '@material-ui/icons/MoreHorizOutlined';
-import SidebarOptions from './SidebarOptions';
+import SidebarOptions from '../Sidebar/SidebarOption/SidebarOptions.jsx';
+//icons importing from material ui end
+
 import {Button} from '@material-ui/core'
 
 
@@ -19,7 +22,7 @@ export default function Sidebar() {
     <div className='sidebar'>
 
         {/* twitter icon */}
-        <TwitterIcon/>
+        <TwitterIcon className='sidebar_twitterIcon'/>
         {/* sidebarOption  */}
         <SidebarOptions active Icons={HomeIcon} text="Home"/>
         <SidebarOptions Icons={SearchIcon} text="Explore"/>
