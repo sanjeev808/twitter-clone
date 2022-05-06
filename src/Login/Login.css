@@ -1,0 +1,303 @@
+.login {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* background: yellow; */
+    height: 99vh;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.loginlogo {
+    flex: 1.3;
+    /* background-color: pink; */
+    position: relative;
+}
+
+.twitterimg {
+    width: 100%;
+    height: 100%;
+}
+
+.twittericon {
+
+    font-size: 390px !important;
+    color: white;
+    position: absolute;
+    top: 159px;
+    left: 242px;
+}
+
+.loginData {
+    flex: 1;
+    /* background-color: red; */
+}
+
+.outerside {
+    /* background-color: yellow; */
+    width: 85%;
+    height: 85%;
+    margin: 34px auto;
+}
+
+.heading>h1 {
+    font-size: 64px;
+    margin: 30px 0px;
+}
+
+
+.heading2>h3 {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+
+.Headericon {
+    font-size: 62px !important;
+    color: rgb(29, 155, 240);
+}
+
+.contact-container {
+    width: 333px;
+    margin-top: 20px;
+}
+
+.faceboook-btn  .kep-login-facebook{
+    cursor: pointer;
+    width: 325px;
+    border-radius: 46px !important;
+    border: 1px solid #d5cccc;
+    background: transparent;
+    
+    background-color: #4c69ba;
+    border: calc(0.06887vw + 0.67769px) solid #4c69ba;
+    padding: calc(0.34435vw + 13.38843px) calc(0.34435vw + 18.38843px);
+}
+
+.google {
+    cursor: pointer;
+    width: 325px;
+    padding: 11px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #d5cccc;
+    background: transparent;
+    border-radius: 24px;
+    margin-left: 6px;
+    margin-bottom: 15px;
+    border-radius: 20px !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    border-radius: 42px !important;
+    padding-left: 50px !important;
+}
+
+.email-sign {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight:500 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+    width: 325px !important;
+    font-size: 20px !important;
+}
+
+.already {
+    margin: 40px 0px;
+}
+
+.Sign-btn {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight:500 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+    width: 325px !important;
+    font-size: 20px !important;
+
+
+}
+
+/* modal css */
+.modalBackground{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalContainer{
+    width: 616px;
+    height: 622px;
+    border-radius: 12px;
+    background-color:rgba(255,255,255,1.00);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.modalContainer .title{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 21px;
+    /* color: var(--twitter-text-color); */
+}
+.titleclosebtn
+{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.titleclosebtn button{
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.modalContainer .body
+{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.closeModal{
+    width: 24px;
+    font-size: 19px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 36px;
+    background: none;
+}
+.d-flex{
+    display: flex;
+}
+.modalicon{
+    color: rgb(29, 155, 240);
+    font-size: 40px !important;
+    margin: 5px auto;
+}
+.formHeading{
+    /* background-color: yellow; */
+    width: 480px;
+    margin: 13px auto;
+}
+
+.Name{
+    width: 100%;
+    padding: 15px 0px;
+    margin: 23px 1px;
+    border: 2px solid #cdc9c9;
+    font-size: 20px;
+    color: grey;
+    border: 2px solid #cdc9c9;
+
+    
+}
+.Name:focus {
+    outline: none;
+  border: 2px solid var(--twitter-color);
+  }
+#Name::placeholder {
+    color: rgb(155, 154, 154);
+    font-size: 20px;
+    padding-left: 20px;
+  }
+   .Number{
+  
+    width: 100%;
+    padding: 15px 0px;
+    margin: 0px 0px 31px 0px;
+    border: 2px solid #cdc9c9;
+    font-size: 20px;
+    color: grey;
+
+}
+.Number:focus {
+    outline: none;
+  border: 2px solid var(--twitter-color);
+  }
+ #Number::placeholder {
+    color: rgb(155, 154, 154);
+    font-size: 20px;
+    padding-left: 20px;
+
+  }
+  .dateheading{
+    font-size: 22px;
+    margin-bottom: 19px;
+  }
+  .datepara{
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  #month
+  {
+    width: 148px;
+    padding: 17px 0px;
+    margin: 15px 6px;
+    font-size: 18px;
+    color: grey;
+    border: 2px solid grey;
+    background: transparent;
+  }
+  #month:focus {
+    outline: none;
+  border: 2px solid var(--twitter-color);
+  }
+  #date{
+    width: 148px;
+    padding: 17px 0px;
+    margin: 15px 6px;
+    font-size: 18px;
+    color: grey;
+    border: 2px solid grey;
+    background: transparent;
+  }
+  #date:focus {
+    outline: none;
+  border: 2px solid var(--twitter-color);
+  }
+  #year{
+    width: 148px;
+    padding: 17px 0px;
+    margin: 15px 6px;
+    font-size: 18px;
+    color: grey;
+    border: 2px solid grey;
+    background: transparent;
+  }
+  #year:focus {
+    outline: none;
+  border: 2px solid var(--twitter-color);
+  }
+  .footer{
+    margin: 0px auto ;
+  }
+  .footerbtn{
+    background-color: grey !important;
+    border: none !important;
+    color: white !important;
+    font-weight:900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+    width: 100% !important;
+  }

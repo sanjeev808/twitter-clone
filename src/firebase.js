@@ -1,15 +1,15 @@
 import firebase from "firebase"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCfIm1W-ihMqxDfLZPsMEFh4KLk9dwDukI",
-    authDomain: "twitter-clone-69dad.firebaseapp.com",
-    projectId: "twitter-clone-69dad",
-    storageBucket: "twitter-clone-69dad.appspot.com",
-    messagingSenderId: "467843305734",
-    appId: "1:467843305734:web:59c027baa8d9fe7944ce87",
-    measurementId: "G-1LRMXXSR1P"
-  };
-  const firsebaseApp = firebase.initializeApp(firebaseConfig);
+  apiKey: "AIzaSyDSOUUha4_spOtP13eF5AZ5FXIdU_EPWOM",
+  authDomain: "twitter-clone-349009.firebaseapp.com",
+  projectId: "twitter-clone-349009",
+  storageBucket: "twitter-clone-349009.appspot.com",
+  messagingSenderId: "309418208501",
+  appId: "1:309418208501:web:8a1d2273b197075018e9bc",
+  measurementId: "G-GYKSFL5DNW"
+};
+  const firebaseApp = firebase.initializeApp(firebaseConfig);
 
   const db = firebaseApp.firestore();
   export default db;
