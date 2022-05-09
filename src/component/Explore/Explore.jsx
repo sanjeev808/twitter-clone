@@ -5,7 +5,7 @@ export default function Explore() {
   return (
     <div className='explore'>
       <Sidebar/>
-      <div>jncjksdvjdn</div>
+      <div className="explore-data">jncjksdvjdn</div>
     </div>
   )
 }

@@ -29,13 +29,12 @@ return(
 <div>
   {!login && (
 
-    <FacebookLogin  className="facebook"
-      appId="544231040743947"
-      autoLoad={true}
-      fields="name,email,picture"
-      onClick={componentClicked}
-      callback={responseFacebook}
-    />
+<FacebookLogin
+appId="1129231590987638"
+autoLoad={true}
+fields="name,email,picture"
+onClick={componentClicked}
+callback={responseFacebook} />
   )}
   </div>
   {login && (

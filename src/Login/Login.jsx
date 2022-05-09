@@ -5,6 +5,7 @@ import twitter from '../images/twitterlogin.png'
 // import ReactFacebokLogin from './FaceBook.jsx'
 import FaceBook from "./FaceBook.jsx";
 import Google from './Google.jsx'
+// import Instagram from './Instagram.jsx'
 import Modal from "./Model";
 import {Button} from '@material-ui/core'
 
@@ -33,7 +34,9 @@ const [openModal ,setOpenModal] = useState(false)
           <div className="contact-container">
             <div className="faceboook-btn"><FaceBook/></div>
             <br />
-            <Button  className="google-btn"><Google/></Button>
+            <Button  ><Google/></Button>
+            {/* <Button  className="google-btn"><Instagram/></Button> */}
+
 
             <p className="text-align-center">or</p>
             <Button variant='outlined' type="button" className="email-sign" onClick={()=>{setOpenModal(true)}}> Sign up with phone or email</Button>

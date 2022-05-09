@@ -19,17 +19,16 @@ export default function Google() {
       }
   return (
     <div>
-        <div>  
-        {!login && (
+      {!login && (
 
-         <GoogleLogin className='google'
+    <GoogleLogin className='google'
     clientId="309418208501-934ob68m0sdpgjdthqseiihqn6r8otqd.apps.googleusercontent.com"
-    // buttonText="Login"
+    buttonText="Login"
     onSuccess={responseGoogle}
     onFailure={responseGoogle}
     cookiePolicy={'single_host_origin'}
   />
-  )} </div>
+  )}
      {login && (
 <Navigate to='/home' />
 )}

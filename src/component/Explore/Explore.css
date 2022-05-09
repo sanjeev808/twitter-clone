@@ -1,7 +1,10 @@
 .explore{
-    flex:0.5;
-    border-right: 1px solid var(--twitter-background);
-    overflow-y: scroll;
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
 }
 .explore::-webkit-scrollbar{
     display: none;
@@ -11,3 +14,8 @@
     scrollbar-width: none
     ;
 }
+/* .explore-data{
+flex: 0.5 1;
+border-right: 1px solid var(--twitter-background);
+overflow-y: scroll;
+} */
